@@ -16,7 +16,7 @@ The repository strictly follows the mandated structure:
 ds_abhay_rawat/
 ├── ds_report.pdf                      # Final summarized insights and strategic recommendations (2 pages).
 ├── notebook_1.ipynb                   # The Google Colab notebook containing all Python code.
-├── historical_data.csv                # Raw Input File 1
+├── historical_data.csv                # **[NOTE: File Excluded due to GitHub Size Limit (> 25MB)]**
 ├── fear_greed_index.csv               # Raw Input File 2
 ├── csv_files/
 │   └── merged_trader_sentiment_data.csv   # Intermediate processed data, merging daily metrics with sentiment.
@@ -24,6 +24,15 @@ ds_abhay_rawat/
     ├── mean_daily_pnl_by_sentiment.png    # Visual evidence of profitability divergence.
     └── total_volume_by_sentiment.png      # Visual evidence of activity/volume alignment.
 
+
+🚨 IMPORTANT NOTE REGARDING historical_data.csv
+
+The raw file historical_data.csv exceeds GitHub's maximum file size limit (25MB+). It has been omitted from this repository.
+
+To access this file, please use the original Google Drive link provided in the assignment instructions:
+https://drive.google.com/file/d/1IAfLZwu6rJzyWKgBToqwSmmVYU6VbjVs/view?usp=sharing
+
+The code in notebook_1.ipynb successfully accesses this file via the Colab environment, where the analysis was performed.
 
 Code and Methodology
 
